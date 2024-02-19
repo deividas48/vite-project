@@ -6,8 +6,6 @@ import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <BrowserRouter>
-    // <CartProvider>
       <App />
-    // </CartProvider>
   // </BrowserRouter>,
 )
