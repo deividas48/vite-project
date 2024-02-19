@@ -5,9 +5,9 @@ import './styles/index.css'
 // import CartProvider from './store/CartProvider.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <CartProvider>
+  // <BrowserRouter>
+    // <CartProvider>
       <App />
-    </CartProvider>
-  </BrowserRouter>,
+    // </CartProvider>
+  // </BrowserRouter>,
 )
