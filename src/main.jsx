@@ -3,9 +3,10 @@ import App from './App.jsx'
 import './styles/index.css'
 // import { BrowserRouter } from 'react-router-dom';
 // import CartProvider from './store/CartProvider.jsx';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <BrowserRouter>
-      <App />
-  // </BrowserRouter>,
+  <Router>
+    <App />
+  </Router>,
 )
